@@ -57,7 +57,6 @@ for src, dst in hosts.iteritems():
 for each in hosts:
     print("Fetching: [{0}] [{1}]".format(each, r.get(each)))
 ```
-
 ```
 $ python sample.py
 Fetching: [https://kevinfeltner.com:443/] [http://104.238.126.142]
@@ -84,7 +83,7 @@ Age: 0
 Connection: keep-alive
 Via: http/1.1 s104-238-126-142.secureserver.net (ApacheTrafficServer/5.3.1 [csSf ])
 ```
-7. Thats it !
+9. Thats it !
 
 #############################
 #  SUPPORTED KEYS IN REDIS  #
