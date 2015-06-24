@@ -28,21 +28,13 @@ Prerequisites
    * make
    * sudo make install
 4. Start the Traffic Server
-
-/usr/local/bin/traffic_server
-
+   * /usr/local/bin/traffic_server
 5. Start the redis
-
-sudo service redis start
-
+   * sudo service redis start
 6. Start apache on port 8080 (change configs accordingly)
-
-sudo service httpd start
-
+   * sudo service httpd start
 7. Add some keys into the redis store for testing (via python)
-
-TODO: Update these to test domains instead of my own
-
+   * TODO: Update these to test domains instead of my own
 ```python
 import redis
 
@@ -77,11 +69,7 @@ Fetching: [https://sfeltner.com:443/] [http://104.238.126.142]
 Fetching: [https://www.divedeepstaylong.com:443/] [http://198.12.155.76]
 Fetching: [https://divedeepstaylong.com:443/] [http://198.12.155.76]
 ```
-
-
-
 8. Do sample query
-
 ```
 $ curl -isSL https://n2deep.co
 HTTP/1.1 200 OK
@@ -96,8 +84,6 @@ Age: 0
 Connection: keep-alive
 Via: http/1.1 s104-238-126-142.secureserver.net (ApacheTrafficServer/5.3.1 [csSf ])
 ```
-
-
 7. Thats it !
 
 #############################
