@@ -68,7 +68,7 @@ Fetching: [https://sfeltner.com:443/] [http://104.238.126.142]
 Fetching: [https://www.divedeepstaylong.com:443/] [http://198.12.155.76]
 Fetching: [https://divedeepstaylong.com:443/] [http://198.12.155.76]
 ```
-8. Do sample query
+   * Do sample query
 ```
 $ curl -isSL https://n2deep.co
 HTTP/1.1 200 OK
@@ -83,7 +83,7 @@ Age: 0
 Connection: keep-alive
 Via: http/1.1 s104-238-126-142.secureserver.net (ApacheTrafficServer/5.3.1 [csSf ])
 ```
-9. Thats it !
+   * Thats it !
 
 #############################
 #  SUPPORTED KEYS IN REDIS  #
