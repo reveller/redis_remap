@@ -21,15 +21,12 @@ Prerequisites
 ==============================================
 
 1. Download, compile and install redis 3.x
-* http://download.redis.io/releases/redis-<version>.tar.gz
+   * http://download.redis.io/releases/redis-<version>.tar.gz
 2.  Download, compile and install hiredis C client library for redis
-* git://github.com/redis/hiredis.git
-
+   * git://github.com/redis/hiredis.git
 3. Compile and Install the redis_remap plugin
-
-make
-sudo make install
-
+   * make
+   * sudo make install
 4. Start the Traffic Server
 
 /usr/local/bin/traffic_server
