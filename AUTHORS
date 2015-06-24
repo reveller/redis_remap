@@ -1,0 +1,11 @@
+Author: Steven Feltner <sfeltenr@godaddy.com>
+
+redis_remap plugin
+
+========= CREDITS ===============
+Eric Balsa <ericb@apache.org>
+Original concept via mysql_remap plugin
+
+opensource@navyaprabha.com
+Adapted the mysql_remap plugin to memcached_remap
+
